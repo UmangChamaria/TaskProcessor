@@ -3,6 +3,7 @@ package com.umang.asyncprocessor;
 import android.support.annotation.WorkerThread;
 
 /**
+ * Interface to be implemented for background thread processing
  * @author Umang Chamaria
  */
 
