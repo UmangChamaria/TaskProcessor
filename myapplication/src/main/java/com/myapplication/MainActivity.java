@@ -1,7 +1,7 @@
-package com.umang.taskprocessor;
+package com.myapplication;
 
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import com.umang.asyncprocessor.TaskProcessor;
 
 public class MainActivity extends AppCompatActivity {

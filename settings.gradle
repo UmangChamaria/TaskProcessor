@@ -1,1 +1,1 @@
-include ':example', ':async-task-processor'
+include ':example', ':async-task-processor', ':myapplication'
