@@ -1,3 +1,4 @@
+apply plugin: 'maven'
 apply plugin: 'com.android.library'
 
 android {
@@ -26,4 +27,16 @@ dependencies {
   })
   implementation "com.android.support:support-annotations:28.0.0"
   testCompile 'junit:junit:4.12'
+}
+
+// follow answer https://stackoverflow.com/a/28361663/3926506 to build artifact
+group = 'com.umang.asyncprocessor'
+version = '1.0'
+
+uploadArchives {
+  repositories {
+    mavenDeployer {
+      repository(url: "file://C:/Users/Sergey/.m2/repository")
+    }
+  }
 }

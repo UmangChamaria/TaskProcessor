@@ -1,4 +1,4 @@
-package com.umang.taskprocessor;
+package com.umang.example;
 
 import org.junit.Test;
 
