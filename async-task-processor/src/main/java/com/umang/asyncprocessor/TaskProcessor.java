@@ -1,7 +1,6 @@
 package com.umang.asyncprocessor;
 
 import android.support.annotation.NonNull;
-import android.support.annotation.RestrictTo;
 import android.text.TextUtils;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -41,7 +40,6 @@ public class TaskProcessor {
    *
    * @param task Instance of the {@link ITask} which should executed on the worker thread.
    */
-  @RestrictTo(RestrictTo.Scope.LIBRARY)
   public void addTask(ITask task) {
     if (task != null) {
       mTaskQueue.add(task);
